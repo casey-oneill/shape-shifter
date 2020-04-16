@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Shape Shifter</title>
+
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <div>
+            <h1>Shape Shifter</h1>
+            <canvas width="241" height="520" id="scene"></canvas>
+        </div>
+    </body>
+
+    <script src="./dist/shape-shifter.js"></script>
+    <script src="./dist/column.js"></script>
+    <script src="./dist/cell.js"></script>
+    <script>
+        (function() {
+            var game = new Game();
+            game.init();
+        })();
+    </script>
+</html>

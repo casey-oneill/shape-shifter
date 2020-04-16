@@ -1,0 +1,13 @@
+div {
+    background-color: slategrey;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: fantasy;
+}
+
+div canvas {
+    background-color: white;
+}
